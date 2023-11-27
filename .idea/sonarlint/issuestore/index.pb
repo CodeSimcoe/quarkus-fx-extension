@@ -13,7 +13,3 @@ Yruntime/src/main/java/com/codesimcoe/quarkus/fx/extension/runtime/FXMLLoaderPro
 Sruntime/src/main/java/com/codesimcoe/quarkus/fx/extension/runtime/PrimaryStage.java,1\d\1d04160ffaa67e8b32bc70b1e5cd3b4c55aae648
 „
 Truntime/src/main/java/com/codesimcoe/quarkus/fx/extension/runtime/FxApplication.java,e\2\e26b4b0a2e10ffa27287b6565438d4f5181ba0f5
-Z
-*deployment/src/main/java/PrimaryStage.java,d\0\d0ceead2c63844ca0c6677f789bcd9c3b42a9a5c
-‰
-Ydeployment/src/main/java/com/codesimcoe/quarkus/fx/extension/deployment/PrimaryStage.java,9\7\97096b8930b0d642f0241957b3c175d1974cc27c
