@@ -1,0 +1,9 @@
+---
+name: "Quarkus Fx Extension"
+metadata:
+  built-with-quarkus-core: "3.5.3"
+  minimum-java-version: "11"
+  extension-dependencies:
+  - "io.quarkus:quarkus-arc"
+  - "io.quarkus:quarkus-core"
+artifact: "com.codesimcoe:quarkus-fx-extension::jar:1.0.0-SNAPSHOT"
