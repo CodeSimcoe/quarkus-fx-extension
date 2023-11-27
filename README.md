@@ -17,12 +17,12 @@ import javafx.application.Application;
 @QuarkusMain
 public class CDIApplication implements QuarkusApplication {
 
-  public static void main(final String[] args) {
+  public static void main(String[] args) {
     Quarkus.run(CDIApplication.class);
   }
 
   @Override
-  public int run(final String... args) {
+  public int run(String... args) {
     Application.launch(FxApplication.class, args);
     return 0;
   }
@@ -48,7 +48,7 @@ public class QuarkusFxApp {
       stage.show();
 
     } catch (IOException e) {
-      e.printStackTrace();
+      // TODO
     }
   }
 }
