@@ -1,5 +1,5 @@
 # quarkus-fx-extension
-JavaFX Quarkus extension allows you to use JavaFX in your Quarkus application.
+This Quarkus extension allows you to use JavaFX in your Quarkus application.
 It will allow component injection in FX Controllers and will allow you to use CDI events to register on primary stage creation.
 
 Live reload is still problematic and will be studied in the future.
