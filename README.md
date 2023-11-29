@@ -1,5 +1,5 @@
 # quarkus-fx-extension
-JavaFX Quarkus extension allows you to use JavaFX in your Quarkus application.
+This Quarkus extension allows you to use JavaFX in your Quarkus application.
 It will allow component injection in FX Controllers and will allow you to use CDI events to register on primary stage creation.
 
 Live reload is still problematic and will be studied in the future.
@@ -17,12 +17,12 @@ import javafx.application.Application;
 @QuarkusMain
 public class CDIApplication implements QuarkusApplication {
 
-  public static void main(final String[] args) {
+  public static void main(String[] args) {
     Quarkus.run(CDIApplication.class);
   }
 
   @Override
-  public int run(final String... args) {
+  public int run(String... args) {
     Application.launch(FxApplication.class, args);
     return 0;
   }
@@ -48,9 +48,9 @@ public class QuarkusFxApp {
       stage.show();
 
     } catch (IOException e) {
-      e.printStackTrace();
+      // TODO
     }
   }
 }
 ```
-Base from https://github.com/pedrolopix work and updated so far.
+Based on https://github.com/pedrolopix work and updated so far.
