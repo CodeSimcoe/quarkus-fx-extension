@@ -13,3 +13,18 @@ Yruntime/src/main/java/com/codesimcoe/quarkus/fx/extension/runtime/FXMLLoaderPro
 Sruntime/src/main/java/com/codesimcoe/quarkus/fx/extension/runtime/PrimaryStage.java,1\d\1d04160ffaa67e8b32bc70b1e5cd3b4c55aae648
 Ñ
 Truntime/src/main/java/com/codesimcoe/quarkus/fx/extension/runtime/FxApplication.java,e\2\e26b4b0a2e10ffa27287b6565438d4f5181ba0f5
+O
+quarkus-fx-extension-parent.iml,0\5\05b991f8ef302e70d38b7b11ecaa0449cacfe285
+H
+quarkus-fx-extension.iml,7\1\71ac7765b37bb415ed1738a7dea8843ae01fd0cd
+7
+LICENSE,0\3\0398ccd0f49298b10a3d76a47800d2ebecd49859
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+î
+ddeployment/src/test/java/com/codesimcoe/quarkus/fx/extension/test/QuarkusFxExtensionDevModeTest.java,6\4\64ac13af895084c688cca8d086618a0fd5f3bfb7
+î
+ddeployment/src/main/java/com/codesimcoe/quarkus/fx/extension/deployment/QuarkusFxDevUIProcessor.java,2\4\2453ef86ba2358dceaebcb4e78c782caea956e31
+ç
+]deployment/src/test/java/com/codesimcoe/quarkus/fx/extension/test/QuarkusFxExtensionTest.java,a\4\a420eb3e5f5974a1778ef3a10815ac25b067c93f

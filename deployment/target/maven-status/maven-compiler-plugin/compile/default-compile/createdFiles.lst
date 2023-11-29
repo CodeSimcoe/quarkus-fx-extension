@@ -1,4 +1,5 @@
 META-INF\quarkus-build-steps.list
 META-INF\quarkus-javadoc.properties
 com\codesimcoe\quarkus\fx\extension\deployment\QuarkusFxExtensionProcessor.class
+com\codesimcoe\quarkus\fx\extension\deployment\QuarkusFxDevUIProcessor.class
 com\codesimcoe\quarkus\fx\extension\deployment\QuarkusFxExtensionProcessor$$accessor.class

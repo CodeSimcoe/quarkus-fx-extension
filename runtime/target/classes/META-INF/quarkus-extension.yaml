@@ -2,7 +2,7 @@
 name: "Quarkus Fx Extension"
 metadata:
   built-with-quarkus-core: "3.5.3"
-  minimum-java-version: "11"
+  minimum-java-version: "21"
   extension-dependencies:
   - "io.quarkus:quarkus-arc"
   - "io.quarkus:quarkus-core"
