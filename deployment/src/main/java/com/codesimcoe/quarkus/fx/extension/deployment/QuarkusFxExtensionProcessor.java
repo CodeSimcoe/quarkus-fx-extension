@@ -2,16 +2,13 @@ package com.codesimcoe.quarkus.fx.extension.deployment;
 
 import com.codesimcoe.quarkus.fx.extension.runtime.FXMLLoaderProducer;
 import com.codesimcoe.quarkus.fx.extension.runtime.PrimaryStage;
+import com.codesimcoe.quarkus.fx.extension.runtime.QuarkusFxLaunchRecorder;
 import io.quarkus.arc.deployment.AdditionalBeanBuildItem;
-import io.quarkus.arc.deployment.QualifierRegistrarBuildItem;
-import io.quarkus.arc.processor.QualifierRegistrar;
 import io.quarkus.deployment.annotations.BuildStep;
+import io.quarkus.deployment.annotations.Record;
 import io.quarkus.deployment.builditem.FeatureBuildItem;
-import io.quarkus.deployment.builditem.LiveReloadBuildItem;
-import org.jboss.jandex.DotName;
 
-import java.util.Map;
-import java.util.Set;
+import static io.quarkus.deployment.annotations.ExecutionTime.RUNTIME_INIT;
 
 class QuarkusFxExtensionProcessor {
 
@@ -30,5 +27,11 @@ class QuarkusFxExtensionProcessor {
   @BuildStep
   AdditionalBeanBuildItem primaryStage() {
     return new AdditionalBeanBuildItem(PrimaryStage.class);
+  }
+
+  @Record(RUNTIME_INIT)
+  @BuildStep
+  public void launch(final QuarkusFxLaunchRecorder recorder) {
+    recorder.launchFxApplication();
   }
 }
